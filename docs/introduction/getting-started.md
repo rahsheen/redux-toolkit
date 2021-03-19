@@ -25,7 +25,7 @@ you make your Redux code better.
 
 ### Using Create React App
 
-The recommended way to start new apps with React and Redux Toolkit is by using the [official Redux+JS template](https://github.com/reduxjs/cra-template-redux) for [Create React App](https://github.com/facebook/create-react-app), which takes advantage of React Redux's integration with React components.
+The recommended way to start new web apps with React and Redux Toolkit is by using the [official Redux+JS template](https://github.com/reduxjs/cra-template-redux) for [Create React App](https://github.com/facebook/create-react-app), which takes advantage of React Redux's integration with React components.
 
 ```sh
 npx create-react-app my-app --template redux
@@ -35,6 +35,19 @@ We also have [a Redux+TS template for CRA as well](https://github.com/reduxjs/cr
 
 ```sh
 npx create-react-app my-app --template redux-typescript
+```
+### Using React Native CLI
+
+You can also start a new web app using the [official Redux+JS template](https://github.com/reduxjs/cra-template-redux) for [React Native CLI](https://https://reactnative.dev), which takes advantage of React Redux's integration with React components.
+
+```sh
+npx react-native init AwesomeProject --template @rahsheen/react-native-template-redux
+```
+
+We also have [a Redux+TS template for React Native CLI as well](https://github.com/reduxjs/cra-template-redux-typescript):
+
+```sh
+npx react-native init AwesomeProject --template react-native-template-redux-typescript
 ```
 
 ### An Existing App
